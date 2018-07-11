@@ -6,7 +6,7 @@ import (
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello GCP CD, This is a Red/Black image Updated! Check that old instances are scaled down")
+	io.WriteString(w, "Hello GCP CD, This is a Red/Black image Updated! Highlander Test")
 }
 
 func main() {
